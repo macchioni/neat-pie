@@ -1,0 +1,16 @@
+/* Personalizzazioni test */
+
+/* Stile per date articoli */
+time {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Spaziatura articoli */
+.post-excerpt {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
