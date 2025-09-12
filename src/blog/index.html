@@ -2,12 +2,12 @@
 layout: blog
 ---
 
-<section class="mt-15">
+<section class="blog-list">
     {% set postslist = collections.post %}
 
     {% for post in postslist | reverse %}
-        <article class="my-8">
-            <h2 class="font-bold text-3xl text-gray-900 mb-2">
+        <article class="post-excerpt">
+            <h2>
                 <a href="{{ post.url | url }}">
                     {% if post.data.title %}
                         {{ post.data.title }}
@@ -16,26 +16,19 @@ layout: blog
                     {% endif %}
                 </a>
             </h2>
-            <p class="text-base leading-6 text-gray-500 mb-3">
-                <time>
-                    {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
-
-                </time>
-            </p>
+            
+            <time class="post-meta">
+                {{ post.date | readableDate }}
+                {% if post.data.author %} by <span class="author">{{ post.data.author }}</span>{% endif %}
+            </time>
+            
             {% if post.data.description %}
-                <p class="text-lg text-gray-500 mb-3">
-                    {{ post.data.description }}
-                </p>
+                <p class="excerpt">{{ post.data.description }}</p>
             {% endif %}
 
             <p>
-                <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
-                </a>
+                <a href="{{ post.url | url }}" class="read-more">Read more →</a>
             </p>
-
         </article>
     {% endfor %}
 </section>
