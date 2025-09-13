@@ -16,6 +16,11 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // RSS Date filter
+  eleventyConfig.addFilter("rssDate", (dateObj) => {
+    return new Date(dateObj).toUTCString();
+  });
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
@@ -37,6 +42,9 @@ module.exports = function (eleventyConfig) {
 
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+
+  // Copy RSS XSLT file
+  eleventyConfig.addPassthroughCopy("./src/feed.xsl");
 
   // Let Eleventy transform HTML files as nunjucks
   return {
