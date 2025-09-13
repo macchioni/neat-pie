@@ -1,0 +1,4 @@
+@media (min-width: 600px) {
+    #menu { display: block !important; }
+    #menu-toggle { display: none; }
+}

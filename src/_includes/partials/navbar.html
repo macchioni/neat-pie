@@ -1,11 +1,9 @@
-<nav class="nav">
-    <div class="nav-header">
-        <a href="/" class="nav-logo">Logo</a>
-        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
-    </div>
+<nav>
+    <a href="/">Logo</a>
+    <button id="menu-toggle">☰</button>
     
     {% if navigation.items %}
-        <ul class="nav-menu" id="navMenu">
+        <ul id="menu" style="display: none;">
             {% for item in navigation.items %}
                 <li><a href="{{ item.url }}">{{ item.text }}</a></li>
             {% endfor %}
@@ -14,16 +12,8 @@
 </nav>
 
 <script>
-function toggleMenu() {
-    const menu = document.getElementById('navMenu');
-    menu.classList.toggle('show');
-}
-
-// Chiudi menu quando clicchi fuori
-document.addEventListener('click', function(event) {
-    const nav = document.querySelector('.nav');
-    if (!nav.contains(event.target)) {
-        document.getElementById('navMenu').classList.remove('show');
-    }
-});
+document.getElementById('menu-toggle').onclick = function() {
+    const menu = document.getElementById('menu');
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+};
 </script>
