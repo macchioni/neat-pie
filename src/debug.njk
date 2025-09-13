@@ -5,18 +5,14 @@ permalink: /debug.html
 
 <h2>Collections disponibili:</h2>
 <ul>
-{% for key in collections %}
-  <li>{{ key[0] }} - {{ key[1].length }} items</li>
+{% for name, items in collections %}
+  <li>{{ name }} - {{ items.length }} items</li>
 {% endfor %}
 </ul>
 
-<h2>File in src/posts/:</h2>
-{% for item in collections.all %}
-  {% if item.inputPath.includes('/posts/') %}
-    <div>
-      <strong>{{ item.url }}</strong><br>
-      Titolo: {{ item.data.title or 'No title' }}<br>
-      Tags: {{ item.data.tags or 'No tags' }}<br>
-    </div>
-  {% endif %}
-{% endfor %}
+<h2>Collection 'post' specifica:</h2>
+{% if collections.post %}
+  <p>Trovati {{ collections.post.length }} post in collections.post</p>
+{% else %}
+  <p>collections.post non esiste!</p>
+{% endif %}
