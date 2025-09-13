@@ -1,0 +1,16 @@
+---
+permalink: /debug.html
+---
+<h1>Debug Collections</h1>
+
+<h2>All Collections:</h2>
+<ul>
+{% for collection in collections %}
+  <li>{{ collection[0] }} - {{ collection[1].length }} items</li>
+{% endfor %}
+</ul>
+
+<h2>All files in collections.all:</h2>
+{% for item in collections.all %}
+  <li>{{ item.url }} - Tags: {{ item.data.tags | join(", ") }}</li>
+{% endfor %}
