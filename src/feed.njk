@@ -10,17 +10,12 @@ eleventyExcludeFromCollections: true
     <description>{{ settings.name }} - Blog</description>
     <link>{{ settings.url }}</link>
     <atom:link href="{{ settings.url }}/feed.xml" rel="self" type="application/rss+xml"/>
-    {% if collections.post and collections.post.length > 0 %}
     <lastBuildDate>{{ collections.post[0].date | rssDate }}</lastBuildDate>
-    {% endif %}
     
-    <!-- DEBUG: Posts found: {{ collections.post.length if collections.post else 0 }} -->
-    
-    {% for post in collections.post | reverse | slice(0, 20) %}
+    {% for post in collections.post %}
       <item>
         <title>{{ post.data.title | escape }}</title>
         <description>{{ post.data.description | escape if post.data.description else post.data.title | escape }}</description>
-        <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
         <link>{{ settings.url }}{{ post.url }}</link>
         <guid>{{ settings.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date | rssDate }}</pubDate>
