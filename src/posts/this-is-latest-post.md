@@ -6,7 +6,6 @@ description: Bring to the table win-win survival strategies to ensure proactive
   solution.
 date: 2020-09-23
 author: Surjith S M
-tags: ["post"]
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
