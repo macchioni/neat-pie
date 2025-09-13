@@ -12,10 +12,7 @@ eleventyExcludeFromCollections: true
     <atom:link href="{{ settings.url }}/feed.xml" rel="self" type="application/rss+xml"/>
     {% if collections.post and collections.post.length > 0 %}
     <lastBuildDate>{{ collections.post[0].date | rssDate }}</lastBuildDate>
-    {% endif %}
-    
-    <!-- DEBUG: Posts found: {{ collections.post.length if collections.post else 0 }} -->
-    
+    {% endif %}    
     {% for post in collections.post | reverse | slice(0, 20) %}
       <item>
         <title>{{ post.data.title | escape }}</title>
