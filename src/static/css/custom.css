@@ -35,8 +35,17 @@
 }
 
 /* Blog list spacing */
-p:has(small) {
-    margin-bottom: 1.5rem;
+.row {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.row div:last-child {
+    text-align: right;
 }
 
 small {

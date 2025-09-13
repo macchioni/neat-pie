@@ -5,15 +5,18 @@ layout: blog
 {% set postslist = collections.post %}
 
 {% for post in postslist | reverse %}
-    <p>
-        <a href="{{ post.url | url }}">
-            {% if post.data.title %}
-                {{ post.data.title }}
-            {% else %}
-                Untitled
-            {% endif %}
-        </a>
-        <br>
-        <small>{{ post.date | readableDate }}</small>
-    </p>
+    <div class="row">
+        <div>
+            <a href="{{ post.url | url }}">
+                {% if post.data.title %}
+                    {{ post.data.title }}
+                {% else %}
+                    Untitled
+                {% endif %}
+            </a>
+        </div>
+        <div>
+            <small>{{ post.date | readableDate }}</small>
+        </div>
+    </div>
 {% endfor %}
