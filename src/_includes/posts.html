@@ -4,15 +4,17 @@ prism: true
 ---
 
 <article>
-    <header class="post-header">
-        <h1>{{title}}</h1>
-        <time class="post-meta">
-            {{ date | readableDate }}
-            {% if author %} by <span class="author">{{ author }}</span>{% endif %}
-        </time>
-    </header>
-
-    <div class="post-content">
+    <h1>{{title}}</h1>
+    
+    {% if description %}
+        <p class="description">{{ description }}</p>
+    {% endif %}
+    
+    <div class="breathe">
         {{ content | safe }}
+    </div>
+    
+    <div class="post-footer">
+        <small>{{ date | readableDate }}</small>
     </div>
 </article>
