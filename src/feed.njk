@@ -3,23 +3,23 @@ permalink: /feed.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ settings.name }}</title>
     <description>{{ settings.name }} - Blog</description>
     <link>{{ settings.url }}</link>
     <atom:link href="{{ settings.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{{ collections.post[0].date | rssDate }}</lastBuildDate>
     
-    <!-- Test loop semplice -->
     {% for post in collections.post %}
       <item>
-        <title>{{ post.data.title or "No title" }}</title>
-        <description>{{ post.data.description or "No description" }}</description>
+        <title>{{ post.data.title | escape }}</title>
+        <description>{{ post.data.description | escape if post.data.description else post.data.title | escape }}</description>
         <link>{{ settings.url }}{{ post.url }}</link>
         <guid>{{ settings.url }}{{ post.url }}</guid>
         <pubDate>{{ post.date | rssDate }}</pubDate>
       </item>
     {% endfor %}
-    
-</channel>
+  </channel>
 </rss>
