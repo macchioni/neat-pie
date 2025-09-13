@@ -3,7 +3,7 @@ permalink: /feed.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-stylesheet type="text/xsl" href="/feed.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ settings.name }}</title>
@@ -12,7 +12,10 @@ eleventyExcludeFromCollections: true
     <atom:link href="{{ settings.url }}/feed.xml" rel="self" type="application/rss+xml"/>
     {% if collections.post and collections.post.length > 0 %}
     <lastBuildDate>{{ collections.post[0].date | rssDate }}</lastBuildDate>
-    {% endif %}    
+    {% endif %}
+    
+    <!-- DEBUG: Posts found: {{ collections.post.length if collections.post else 0 }} -->
+    
     {% for post in collections.post | reverse | slice(0, 20) %}
       <item>
         <title>{{ post.data.title | escape }}</title>
