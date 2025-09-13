@@ -2,33 +2,18 @@
 layout: blog
 ---
 
-<section class="blog-list">
-    {% set postslist = collections.post %}
+{% set postslist = collections.post %}
 
-    {% for post in postslist | reverse %}
-        <article class="post-excerpt">
-            <h2>
-                <a href="{{ post.url | url }}">
-                    {% if post.data.title %}
-                        {{ post.data.title }}
-                    {% else %}
-                        Untitled
-                    {% endif %}
-                </a>
-            </h2>
-            
-            <time class="post-meta">
-                {{ post.date | readableDate }}
-                {% if post.data.author %} by <span class="author">{{ post.data.author }}</span>{% endif %}
-            </time>
-            
-            {% if post.data.description %}
-                <p class="excerpt">{{ post.data.description }}</p>
+{% for post in postslist | reverse %}
+    <p>
+        <a href="{{ post.url | url }}">
+            {% if post.data.title %}
+                {{ post.data.title }}
+            {% else %}
+                Untitled
             {% endif %}
-
-            <p>
-                <a href="{{ post.url | url }}" class="read-more">Read more →</a>
-            </p>
-        </article>
-    {% endfor %}
-</section>
+        </a>
+        <br>
+        <small>{{ post.date | readableDate }}</small>
+    </p>
+{% endfor %}

@@ -33,3 +33,12 @@
         display: none; 
     }
 }
+
+/* Blog list spacing */
+p:has(small) {
+    margin-bottom: 1.5rem;
+}
+
+small {
+    color: #666;
+}
