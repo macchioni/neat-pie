@@ -20,6 +20,41 @@
     
     <!-- Eventuali personalizzazioni -->
     <link rel="stylesheet" href="{{ '/static/css/custom.css' | url }}" />
+
+  <meta name="author" content="Piero Macchioni">
+  <meta name="language" content="en">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+  <link rel="shortcut icon" href="/static/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+  <link rel="manifest" href="/static/site.webmanifest" />
+  <meta name="apple-mobile-web-app-title" content="Piero" />
+
+  <!-- Fediverse / Mastodon -->
+  <meta name="fediverse:creator" content="@piero@c.im">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="{% if layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ title or metadata.title }}">
+  <meta property="og:description" content="{{ description or metadata.description }}">
+  <meta property="og:image" content="{{ metadata.url }}{{ image or metadata.image }}">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta name="twitter:title" content="{{ title or metadata.title }}">
+  <meta name="twitter:description" content="{{ description or metadata.description }}">
+  <meta name="twitter:image" content="{{ metadata.url }}{{ image or metadata.image }}">
+  <meta name="twitter:site" content="@pieromacchioni">
+  <meta name="twitter:creator" content="@pieromacchioni">
     
     {% block head %}{% endblock %}
   </head>
