@@ -1,44 +1,43 @@
 <!DOCTYPE html>
-<html lang="it">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml">
-    <title>{{title}}</title>
-    {% if description %}
-      <meta name="description" content="{{description}}"/>
-    {% endif %}
-    
-    <!-- NEAT CSS -->
-    <link rel="stylesheet" href="{{ '/static/css/neat.css' | url }}" />
-    
-    <!-- Syntax highlighting solo se necessario -->
-    {% if prism == true %}
-      <link rel="stylesheet" href="{{ '/static/css/prism.css' | url }}" />
-    {% endif %}
-    
-    <!-- Eventuali personalizzazioni -->
-    <link rel="stylesheet" href="{{ '/static/css/custom.css' | url }}" />
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>{{title}}</title>
+  {% if description %}
+  <meta name="description" content="{{description}}">
+  {% endif %}
+  
   <meta name="author" content="Piero Macchioni">
   <meta name="language" content="en">
   <meta name="robots" content="index, follow">
-
+  
   <!-- Canonical -->
   <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
-
+  
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml">
+  
   <!-- Favicons -->
-  <link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
-  <link rel="shortcut icon" href="/static/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
-  <link rel="manifest" href="/static/site.webmanifest" />
-  <meta name="apple-mobile-web-app-title" content="Piero" />
-
-  <!-- Fediverse / Mastodon -->
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="icon" type="image/png" href="/static/favicon-96x96.png" sizes="96x96">
+  <link rel="shortcut icon" href="/static/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  <link rel="manifest" href="/static/site.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="Piero">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/static/css/neat.css' | url }}">
+  {% if prism == true %}
+  <link rel="stylesheet" href="{{ '/static/css/prism.css' | url }}">
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/static/css/custom.css' | url }}">
+  
+  <!-- Fediverse -->
   <meta name="fediverse:creator" content="@piero@c.im">
-
+  
   <!-- Open Graph -->
   <meta property="og:type" content="{% if layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
@@ -46,7 +45,7 @@
   <meta property="og:description" content="{{ description or metadata.description }}">
   <meta property="og:image" content="{{ metadata.url }}{{ image or metadata.image }}">
   <meta property="og:locale" content="en_US">
-
+  
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="{{ metadata.url }}{{ page.url }}">
@@ -55,21 +54,20 @@
   <meta name="twitter:image" content="{{ metadata.url }}{{ image or metadata.image }}">
   <meta name="twitter:site" content="@pieromacchioni">
   <meta name="twitter:creator" content="@pieromacchioni">
-    
-    {% block head %}{% endblock %}
-  </head>
-  <body>
-    {% include "./partials/navbar.html" %}
-
-    <main>
-      {{ content | safe }}
-    </main>
-
-    {% include "./partials/footer.html" %}
-
-    {% if path == "home" %}
-      <!-- Netlify Identity Widget -->
-      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {% endif %}
-  </body>
+  
+  {% block head %}{% endblock %}
+</head>
+<body>
+  {% include "./partials/navbar.html" %}
+  
+  <main>
+    {{ content | safe }}
+  </main>
+  
+  {% include "./partials/footer.html" %}
+  
+  {% if path == "home" %}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% endif %}
+</body>
 </html>

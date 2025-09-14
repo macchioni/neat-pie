@@ -1,4 +1,49 @@
-/* Navigation desktop elegante */
+/* ==========================================================================
+   TYPOGRAPHY
+   ========================================================================== */
+
+small {
+    color: #666;
+}
+
+.description {
+    color: #666;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
+
+/* Blog list spacing */
+.row {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.row div:last-child {
+    text-align: right;
+}
+
+/* Post footer */
+.post-footer {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    margin-top: 3rem;
+    text-align: right;
+}
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+/* Desktop navigation */
 @media (min-width: 600px) {
     nav {
         display: flex;
@@ -32,41 +77,4 @@
     #menu-toggle { 
         display: none; 
     }
-}
-
-/* Blog list spacing */
-.row {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
-}
-
-.row:last-child {
-    border-bottom: none;
-}
-
-.row div:last-child {
-    text-align: right;
-}
-
-small {
-    color: #666;
-}
-/* Post description */
-.description {
-    color: #666;
-    font-size: 1.1em;
-    font-weight: 300;
-    margin-bottom: 0;
-}
-
-/* Post footer */
-.post-footer {
-    border-top: 1px solid #eee;
-    padding-top: 1rem;
-    margin-top: 3rem;
-    text-align: right;
-}
-
-small {
-    color: #666;
 }
