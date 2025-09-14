@@ -1,5 +1,5 @@
 ---
-date: "2025-06-25"
+date: 2025-06-25
 title: "How a Pair of In-Ear Monitors Made Me Actually Hear Music Again"
 description: "From a chance encounter on a Seoul bus to discovering the transformative power of proper audio gear - without breaking the bank."
 image: "/assets/images/vault/marlon-medau-cassette-unsplash.jpg"

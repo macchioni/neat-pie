@@ -1,5 +1,5 @@
 ---
-date: "2021-05-05"
+date: 2021-05-05
 title: "What a creative can learn from Eleven Madison Park going vegan"
 description: "Chef Daniel Humm reopened its New York restaurant with a plant-based menu. This risk can be inspiration for many people."
 tags: ["restaurants", "vegan", "chefs"]
