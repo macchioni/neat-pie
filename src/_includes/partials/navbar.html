@@ -12,10 +12,16 @@
 </nav>
 
 <script>
-document.getElementById('menu-toggle').onclick = function() {
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
-    menu.classList.toggle('show');
-};
+    
+    if (menuToggle && menu) {
+        menuToggle.addEventListener('click', function() {
+            menu.classList.toggle('show');
+        });
+    }
+});
 </script>
 
 
