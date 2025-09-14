@@ -1,9 +1,9 @@
 <nav>
     <a href="/"><img src="https://www.pngall.com/wp-content/uploads/12/Asterisk.png" alt="Logo" style="max-width: 200px; max-height: 50px; width: auto; height: auto;"></a>
-    <button id="menu-toggle">☰</button>
+    <button id="menu-toggle" onclick="toggleMenu()">☰</button>
     
     {% if navigation.items %}
-        <ul id="menu" style="display: none;">
+        <ul id="menu">
             {% for item in navigation.items %}
                 <li><a href="{{ item.url }}">{{ item.text }}</a></li>
             {% endfor %}
@@ -12,17 +12,8 @@
 </nav>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.getElementById('menu-toggle');
+function toggleMenu() {
     const menu = document.getElementById('menu');
-    
-    if (menuToggle && menu) {
-        menuToggle.addEventListener('click', function() {
-            menu.classList.toggle('show');
-        });
-    }
-});
+    menu.classList.toggle('mobile-open');
+}
 </script>
-
-
-
