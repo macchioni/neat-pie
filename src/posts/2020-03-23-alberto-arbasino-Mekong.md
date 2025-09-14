@@ -6,7 +6,7 @@ image: "/assets/images/vault/mekong2.jpg"
 tags: ["books"]
 ---
 
-![Alberto Arbasino](/assets/images/vault/arbasino.jpg)
+![Alberto Arbasino](/img/vault/arbasino.jpg)
 
 
 `E' morto nella notte lo scrittore e giornalista Alberto Arbasino. Tra i protagonisti del Gruppo '63, con una grande produzione che ha spaziato dai romanzi alla saggistica, Arbasino aveva 90 anni.` 
@@ -24,7 +24,7 @@ Io mai stato un critico letterario. Sempre stato un lettore appassionato. Di sic
 Metto tutto qui. 
 
 
-![Mekong](/assets/images/vault/mekong2.jpg)
+![Mekong](/img/vault/mekong2.jpg)
 
 
 ### STORDITO DALLE PAROLE<br>di Piero Macchioni
