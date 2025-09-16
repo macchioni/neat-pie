@@ -3,15 +3,14 @@ permalink: "feed.xml"
 eleventyExcludeFromCollections: true
 ---
 
-{% raw %}{%- endraw %}
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ metadata.title }}</title>
     <link>{{ metadata.url }}</link>
     <description>{{ metadata.description }}</description>
     <language>it-it</language>
+
     {% set posts = collections.posts or [] %}
     <lastBuildDate>{{ posts | rssLastBuildDate }}</lastBuildDate>
 
@@ -28,5 +27,6 @@ eleventyExcludeFromCollections: true
       ]]></description>
     </item>
     {% endfor %}
+
   </channel>
 </rss>
