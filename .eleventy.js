@@ -51,6 +51,12 @@ module.exports = function (eleventyConfig) {
   // Copy RSS XSLT file
   eleventyConfig.addPassthroughCopy("./src/feed.xsl");
 
-  // Return config
+  // Config di output
   return {
-    dir
+    dir: {
+      input: "src",
+      output: "_site",
+    },
+    htmlTemplateEngine: "njk",
+  };
+};
