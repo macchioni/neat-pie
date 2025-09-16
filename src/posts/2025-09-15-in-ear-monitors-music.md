@@ -3,7 +3,7 @@ date: 2025-09-15
 title: "How a Pair of In-Ear Monitors Made Me Actually Hear Music Again"
 description: "From a chance encounter on a Seoul bus to discovering the transformative power of proper audio gear - without breaking the bank."
 image: "/img/vault/marlon-medau-cassette-unsplash.jpg"
-tags: ["audiophile"]
+tags: ["posts", "audiophile"]
 ---
 
 ![Music!](/static/img/vault/marlon-medau-cassette-unsplash.jpg)
