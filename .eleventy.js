@@ -11,14 +11,19 @@ module.exports = function (eleventyConfig) {
 
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
-    );
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("dd LLL yyyy");
   });
 
-  // RSS Date filter
+  // RSS Date filter (RFC-2822, valido per RSS)
   eleventyConfig.addFilter("rssDate", (dateObj) => {
-    return new Date(dateObj).toUTCString();
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toRFC2822();
+  });
+
+  // Ultima data build (per <lastBuildDate>)
+  eleventyConfig.addFilter("rssLastBuildDate", (posts) => {
+    if (!posts.length) return DateTime.now().toRFC2822();
+    let latestPostDate = posts[posts.length - 1].date;
+    return DateTime.fromJSDate(latestPostDate, { zone: "utc" }).toRFC2822();
   });
 
   // Syntax Highlighting for Code blocks
@@ -27,7 +32,7 @@ module.exports = function (eleventyConfig) {
   // To Support .yaml Extension in _data
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 
-  // Copy Static Files to /_Site
+  // Copy Static Files to /_site
   eleventyConfig.addPassthroughCopy({
     "./src/admin/config.yml": "./admin/config.yml",
     "./node_modules/prismjs/themes/prism-tomorrow.css":
@@ -40,17 +45,12 @@ module.exports = function (eleventyConfig) {
   // Copy Image Folder to /_site
   eleventyConfig.addPassthroughCopy("./src/static/img");
 
-  // Copy favicon to route of /_site
+  // Copy favicon to root of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
 
   // Copy RSS XSLT file
   eleventyConfig.addPassthroughCopy("./src/feed.xsl");
 
-  // Let Eleventy transform HTML files as nunjucks
+  // Return config
   return {
-    dir: {
-      input: "src",
-    },
-    htmlTemplateEngine: "njk",
-  };
-};
+    dir

@@ -3,6 +3,6 @@
   command = "npm run build"
 
 [[headers]]
-  for = "/*.xml"
+  for = "/feed.xml"
   [headers.values]
     Content-Type = "application/rss+xml; charset=utf-8"
