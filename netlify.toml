@@ -5,7 +5,4 @@
 [[headers]]
   for = "/*.xml"
   [headers.values]
-    Content-Type = "application/xml; charset=utf-8"
-
-[build.processing]
-  skip_processing = false
+    Content-Type = "application/rss+xml; charset=utf-8"
