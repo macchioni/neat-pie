@@ -11,11 +11,12 @@ eleventyExcludeFromCollections: true
     <link>{{ metadata.url }}</link>
     <description>{{ metadata.description }}</description>
     <language>it-it</language>
-    <lastBuildDate>{{ collections.posts | rssLastBuildDate }}</lastBuildDate>
+    {% set posts = collections.posts or [] %}
+    <lastBuildDate>{{ posts | rssLastBuildDate }}</lastBuildDate>
 
     <atom:link href="{{ metadata.url }}/feed.xml" rel="self" type="application/rss+xml"/>
 
-    {% for post in collections.posts | reverse %}
+    {% for post in posts | reverse %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ metadata.url }}{{ post.url }}</link>
