@@ -1,5 +1,5 @@
 ---
-permalink: /feed.xml
+permalink: /rss.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
     <title>{{ settings.name }}</title>
     <description>{{ settings.name }} - Blog</description>
     <link>{{ settings.url }}</link>
-    <atom:link href="{{ settings.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="{{ settings.url }}/rss.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>{{ collections.post[0].date | rssDate }}</lastBuildDate>
     {% for post in collections.post %}
     <item>
