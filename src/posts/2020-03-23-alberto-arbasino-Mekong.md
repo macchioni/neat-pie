@@ -2,11 +2,11 @@
 date: 2020-03-23
 title: "Quando Arbasino mi disse che ero come suo padre. E avevo solo 17 anni"
 description: "La volta in cui stroncai Alberto Arbasino sull'edizione nazionale di Repubblica."
-image: "/assets/images/vault/mekong2.jpg"
+image: "https://macchioni.cc/assets/images/vault/mekong2.jpg"
 tags: ["posts", "books"]
 ---
 
-![Alberto Arbasino](/static/img/vault/arbasino.jpg)
+![Alberto Arbasino](https://macchioni.cc/static/img/vault/arbasino.jpg)
 
 
 `E' morto nella notte lo scrittore e giornalista Alberto Arbasino. Tra i protagonisti del Gruppo '63, con una grande produzione che ha spaziato dai romanzi alla saggistica, Arbasino aveva 90 anni.` 
@@ -24,7 +24,7 @@ Io mai stato un critico letterario. Sempre stato un lettore appassionato. Di sic
 Metto tutto qui. 
 
 
-![Mekong](/static/img/vault/mekong2.jpg)
+![Mekong](https://macchioni.cc/static/img/vault/mekong2.jpg)
 
 
 ### STORDITO DALLE PAROLE<br>di Piero Macchioni

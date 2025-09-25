@@ -6,7 +6,7 @@ image: "/img/vault/marlon-medau-cassette-unsplash.jpg"
 tags: ["posts", "audiophile"]
 ---
 
-![Music!](/static/img/vault/marlon-medau-cassette-unsplash.jpg)
+![Music!](https://macchioni.cc/static/img/vault/marlon-medau-cassette-unsplash.jpg)
 
 It started with a stranger on a Seoul bus.
 
@@ -80,4 +80,4 @@ Music sounds different when you actually listen to it.
 
 Thank you, stranger!
 
-![the Audiophile stranger in Seoul](/static/img/vault/stranger.jpg)
+![the Audiophile stranger in Seoul](https://macchioni.cc/static/img/vault/stranger.jpg)
