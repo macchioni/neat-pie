@@ -3,7 +3,7 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
-  // Disabilita l’uso automatico del .gitignore
+  // Disabilita l'uso automatico del .gitignore
   eleventyConfig.setUseGitIgnore(false);
 
   // Merge data invece di sovrascrivere
@@ -35,8 +35,12 @@ module.exports = function (eleventyConfig) {
     "./src/admin/config.yml": "./admin/config.yml",
     "./node_modules/prismjs/themes/prism-tomorrow.css": "./static/css/prism-tomorrow.css",
   });
-  eleventyConfig.addPassthroughCopy("./src/static/css");
-  eleventyConfig.addPassthroughCopy("./src/static/img");
+  
+  // 🔹 MODIFICATO: Copia tutta la cartella static mantenendo la struttura
+  eleventyConfig.addPassthroughCopy("./src/static");
+  // 🔹 RIMOSSO: eleventyConfig.addPassthroughCopy("./src/static/css");
+  // 🔹 RIMOSSO: eleventyConfig.addPassthroughCopy("./src/static/img");
+  
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
   eleventyConfig.addPassthroughCopy("./src/feed.xsl");
 

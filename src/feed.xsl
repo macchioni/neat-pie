@@ -61,7 +61,7 @@
         <div class="feed-info center">
           <h1>RSS Feed</h1>
           <p>Subscribe to <strong><xsl:value-of select="title"/></strong></p>
-          <p><code><xsl:value-of select="link"/>/feed.xml</code></p>
+          <p><code>https://macchioni.cc/feed.xml</code></p>
           <a class="button" href="{link}">← Back to Blog</a>
         </div>
 
