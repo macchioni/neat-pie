@@ -4,7 +4,7 @@ title: "What a creative can learn from Eleven Madison Park going vegan"
 description: "Chef Daniel Humm reopened its New York restaurant with a plant-based menu. This risk can be inspiration for many people."
 tags: ["posts", "restaurants", "vegan", "chefs"]
 image: "https://images.squarespace-cdn.com/content/v1/661d75b635d9930903bb9d39/ccb743c3-3d1e-4883-8cbf-7ba5444d4b3f/Winter+2025-Agedashi+Tofu+with+Brussels+Sprouts+and+Basil+with+wine_Evan+Sung.jpg"
-
+layout: posts
 ---
 
 One of my favorite action movies on Netflix is [7 Days Out](https://www.netflix.com/title/80207124). Actually, it's not an action movie, but a documentary following organizers and employees before a big event.

@@ -4,6 +4,7 @@ title: "Quando Arbasino mi disse che ero come suo padre. E avevo solo 17 anni"
 description: "La volta in cui stroncai Alberto Arbasino sull'edizione nazionale di Repubblica."
 image: "https://macchioni.cc/assets/images/vault/mekong2.jpg"
 tags: ["posts", "books"]
+layout: posts
 ---
 
 ![Alberto Arbasino](https://macchioni.cc/static/img/vault/arbasino.jpg)
