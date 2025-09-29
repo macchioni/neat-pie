@@ -36,15 +36,10 @@ module.exports = function (eleventyConfig) {
     "./node_modules/prismjs/themes/prism-tomorrow.css": "./static/css/prism-tomorrow.css",
   });
   
-  // 🔹 MODIFICATO: Copia tutta la cartella static mantenendo la struttura
   eleventyConfig.addPassthroughCopy("./src/static");
-  // 🔹 RIMOSSO: eleventyConfig.addPassthroughCopy("./src/static/css");
-  // 🔹 RIMOSSO: eleventyConfig.addPassthroughCopy("./src/static/img");
-  
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
-  eleventyConfig.addPassthroughCopy("./src/feed.xsl");
 
-  // 🔹 Trasform per rimuovere spazi iniziali nel feed
+  // Transform per rimuovere spazi iniziali nel feed
   eleventyConfig.addTransform("stripXmlWhitespace", (content, outputPath) => {
     if (outputPath && outputPath.endsWith("feed.xml")) {
       return content.trimStart();
@@ -52,7 +47,7 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  // 🔹 Collection automatica per tutti i file in src/posts/
+  // Collection automatica per tutti i file in src/posts/
   eleventyConfig.addCollection("posts", (collectionApi) => {
     return collectionApi.getAllSorted().filter(item => 
       item.inputPath.startsWith("./src/posts/")
