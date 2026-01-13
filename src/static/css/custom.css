@@ -133,3 +133,34 @@ nav {
     text-decoration: none;
     color: inherit;
 }
+
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.post-date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    white-space: nowrap;
+}
+
+.post-list a {
+    flex-grow: 1;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-list a:hover {
+    text-decoration: underline;
+}
