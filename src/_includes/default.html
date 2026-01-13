@@ -59,24 +59,6 @@
 </head>
 <body>
   {% include "./partials/navbar.html" %}
-
-  {% if page.url starts with "/blog/" %}
-<nav class="breadcrumb">
-  <a href="/">Piero Macchioni</a> / <a href="/blog/">Writing</a>
-</nav>
-{% elseif page.url starts with "/about/" %}
-<nav class="breadcrumb">
-  <a href="/">Piero Macchioni</a> / About
-</nav>
-{% elseif page.url starts with "/now/" %}
-<nav class="breadcrumb">
-  <a href="/">Piero Macchioni</a> / Now
-</nav>
-{% elseif page.url starts with "/contact/" %}
-<nav class="breadcrumb">
-  <a href="/">Piero Macchioni</a> / Contact
-</nav>
-{% endif %}
   
   <main>
     {{ content | safe }}
