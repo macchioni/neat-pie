@@ -1,6 +1,14 @@
 ---
 layout: default.html
+description: notes and ideas
 ---
+
+<h1>{{title}}</h1>
+
+<h3>{{description}}</h3>
+
+<br />
+
 <ul class="post-list">
   {% for post in collections.posts | reverse %}
   <li>
