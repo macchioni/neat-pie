@@ -92,19 +92,20 @@ nav {
         display: flex;
         gap: 1.5rem;
     }
-    
+
     #menu li a {
         text-decoration: none;
         padding: 0.5rem 0;
         color: var(--dark);
         border-bottom: 2px solid transparent;
-        transition: border-color 0.2s ease;
+        transition: all 0.2s ease; /* Cambiato per includere anche il colore */
     }
-    
+
     #menu li a:hover {
-        border-bottom-color: var(--dark);
+        color: #F54069; /* Colore desiderato */
+        border-bottom-color: #F54069; /* Opzionale: sottolinea con lo stesso colore */
     }
-    
+
     #menu-toggle {
         display: none;
     }
@@ -114,7 +115,7 @@ nav {
    LOGO
    ========================================================================== */
 .logo {
-    color: #c2064c;
+    color: F54069c;
     font-size: 4rem;
     text-decoration: none;
     cursor: pointer;
@@ -123,7 +124,7 @@ nav {
 
 .logo:hover {
     text-decoration: none;
-    color: #c2064c;
+    color: F54069;
     transform: rotate(15deg) scale(1.1);
 }
 
