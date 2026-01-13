@@ -126,3 +126,10 @@ nav {
     color: #c2064c;
     transform: rotate(15deg) scale(1.1);
 }
+
+.site-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+}
