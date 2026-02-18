@@ -189,11 +189,10 @@ nav {
   animation-play-state: paused;
 }
 
-.star-svg polygon {
-  fill: none;
+.star-svg line {
   stroke: #3a3530;
   stroke-width: 2;
-  stroke-linejoin: round;
+  stroke-linecap: round;
 }
 
 @keyframes spin {
