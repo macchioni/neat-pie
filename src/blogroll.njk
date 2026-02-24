@@ -1,0 +1,35 @@
+---
+layout: base.njk
+title: Blogroll
+permalink: /blogroll/
+---
+
+<h1>Blogroll</h1>
+<p>I feed che leggo.</p>
+
+<ul id="blogroll-list">
+  <li>Caricamento...</li>
+</ul>
+
+<script>
+fetch('/blogroll.opml')
+  .then(r => r.text())
+  .then(str => {
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(str, 'text/xml');
+    const items = xml.querySelectorAll('outline[type="rss"]');
+    const list = document.getElementById('blogroll-list');
+
+    list.innerHTML = '';
+    items.forEach(item => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = item.getAttribute('htmlUrl');
+      a.textContent = item.getAttribute('text');
+      a.target = '_blank';
+      a.rel = 'noopener';
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+  });
+</script>

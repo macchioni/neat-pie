@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Blogroll</title>
+    <dateModified>Fri, 17 Jan 2025 17:20:00 +0100</dateModified>
+  </head>
+  <body>
+    <outline text="Om Malik" 
+             type="rss" 
+             xmlUrl="https://om.co/feed" 
+             htmlUrl="https://om.co" />
+    <outline text="Altro sito" 
+             type="rss" 
+             xmlUrl="https://altro.com/rss" 
+             htmlUrl="https://altro.com" />
+  </body>
+</opml>
