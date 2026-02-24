@@ -46,7 +46,7 @@
   <meta property="og:image" content="{{ metadata.url }}{{ image or metadata.image }}">
   <meta property="og:locale" content="en_US">
   
-  <!-- Twitter -->
+  <!-- X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="{{ metadata.url }}{{ page.url }}">
   <meta name="twitter:title" content="{{ title or metadata.title }}">
@@ -54,6 +54,9 @@
   <meta name="twitter:image" content="{{ metadata.url }}{{ image or metadata.image }}">
   <meta name="twitter:site" content="@pieromacchioni">
   <meta name="twitter:creator" content="@pieromacchioni">
+
+  <!-- Blogroll -->
+  <link rel="blogroll" type="text/xml" href="/blogroll.opml">
   
   {% block head %}{% endblock %}
 </head>
