@@ -5,7 +5,6 @@
     <dateModified>Mon, 24 Feb 2026 18:00:00 +0100</dateModified>
   </head>
   <body>
-    <outline text="A Blog Directory" title="A Blog Directory" type="rss" xmlUrl="https://blogroll.club/feed/" htmlUrl="https://blogroll.club/"/>
     <outline text="Annie" title="Annie" type="rss" xmlUrl="https://anniemueller.com/posts_feed" htmlUrl="https://anniemueller.com/"/>
     <outline text="Annie Mueller" title="Annie Mueller" type="rss" xmlUrl="https://annie.micro.blog/feed.xml" htmlUrl="https://annie.micro.blog/"/>
     <outline text="Bacardi55's cave" title="Bacardi55's cave" type="rss" xmlUrl="https://bacardi55.io/index.xml" htmlUrl="https://bacardi55.io/"/>
@@ -28,9 +27,7 @@
     <outline text="Luke Mitchell | Bookmarks" title="Luke Mitchell | Bookmarks" type="rss" xmlUrl="https://www.interroban.gg/feeds/bookmarks.xml" htmlUrl="https://www.interroban.gg/bookmarks/2021"/>
     <outline text="Manu's Feed" title="Manu's Feed" type="rss" xmlUrl="https://manuelmoreale.com/feed" htmlUrl="https://manuelmoreale.com/"/>
     <outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" type="rss" xmlUrl="https://mitchellh.com/feed.xml" htmlUrl="https://mitchellh.com/writing"/>
-    <outline text="Molly White's activity feed" title="Molly White's activity feed" type="rss" xmlUrl="https://www.mollywhite.net/feed/feed.xml" htmlUrl="https://mollywhite.net//feed"/>
     <outline text="Naz Hamid" title="Naz Hamid" type="rss" xmlUrl="https://nazhamid.com/feed.xml" htmlUrl="http://nazhamid.com/"/>
-    <outline text="Newsletter feed for Weekly Thing" title="Newsletter feed for Weekly Thing" type="rss" xmlUrl="https://weekly.thingelstad.com/rss" htmlUrl="https://weekly.thingelstad.com/"/>
     <outline text="Notes by JCProbably" title="Notes by JCProbably" type="rss" xmlUrl="https://notes.jeddacp.com/feed/" htmlUrl="https://notes.jeddacp.com/"/>
     <outline text="Om Malik" title="Om Malik" type="rss" xmlUrl="https://om.co/feed" htmlUrl="https://om.co/"/>
     <outline text="Pluralistic: Daily links from Cory Doctorow" title="Pluralistic: Daily links from Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net/"/>
@@ -40,7 +37,6 @@
     <outline text="shellsharks Scrolls" title="shellsharks Scrolls" type="rss" xmlUrl="https://shellsharks.com/feeds/scroll-feed.xml" htmlUrl="https://shellsharks.com/"/>
     <outline text="sylvia.bearblog.dev" title="sylvia.bearblog.dev" type="rss" xmlUrl="https://sylvia.bearblog.dev/feed/" htmlUrl="https://sylvia.bearblog.dev/"/>
     <outline text="Westenberg." title="Westenberg." type="rss" xmlUrl="https://rss.beehiiv.com/feeds/IDFzfYwUH1.xml" htmlUrl="https://westenberg.beehiiv.com/"/>
-    <outline text="Zine Bakery" title="Zine Bakery" type="rss" xmlUrl="https://zinebakery.com/feed.xml" htmlUrl="https://amandavisconti.github.io/zinebakery//"/>
     <outline text="ᕕ( ᐛ )ᕗ Herman's blog" title="ᕕ( ᐛ )ᕗ Herman's blog" type="rss" xmlUrl="https://herman.bearblog.dev/feed/" htmlUrl="http://herman.bearblog.dev/"/>
     <outline text="マリウス" title="マリウス" type="rss" xmlUrl="https://xn--gckvb8fzb.com/index.xml" htmlUrl="https://xn--gckvb8fzb.com/"/>
   </body>
