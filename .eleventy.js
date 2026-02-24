@@ -38,6 +38,7 @@ module.exports = function (eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy("./src/static");
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/blogroll.opml");
 
   // Transform per rimuovere spazi iniziali nel feed
   eleventyConfig.addTransform("stripXmlWhitespace", (content, outputPath) => {
