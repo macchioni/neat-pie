@@ -6,5 +6,7 @@ items:
     url: "/blog"
   - text: about
     url: "/about"
+  - text: blogroll
+    url: "/blogroll"
   - text: contact
     url: "/contact"
