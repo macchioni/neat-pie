@@ -14,7 +14,7 @@
     <outline text="Canned Dragons" title="Canned Dragons" type="rss" xmlUrl="https://canneddragons.net/blog/rss/" htmlUrl="https://canneddragons.net/"/>
     <outline text="Citation Needed" title="Citation Needed" type="rss" xmlUrl="https://www.citationneeded.news/rss/" htmlUrl="https://www.citationneeded.news/"/>
     <outline text="Dave Winer's linkblog feed" title="Dave Winer's linkblog feed" type="rss" xmlUrl="http://scripting.com/misc/nightlyLinks.xml" htmlUrl="http://scripting.com/?tab=links"/>
-    <outline text="David Heinemeier Hansson" title="David Heinemeier Hansson" type="rss" xmlUrl="https://world.hey.com/dhh/feed.atom" htmlUrl="https://world.hey.com/"/>
+    <outline text="David Heinemeier Hansson" title="David Heinemeier Hansson" type="rss" xmlUrl="https://world.hey.com/dhh/feed.atom" htmlUrl="https://world.hey.com/dhh"/>
     <outline text="Derek Sivers" title="Derek Sivers" type="rss" xmlUrl="https://sive.rs/en.atom" htmlUrl="http://sivers.org/"/>
     <outline text="from jason" title="from jason" type="rss" xmlUrl="https://www.fromjason.xyz/feed/feed.xml" htmlUrl="https://fromjason.xyz/"/>
     <outline text="fyr.io Posts" title="fyr.io Posts" type="rss" xmlUrl="https://fyr.io/feed" htmlUrl="https://fyr.io/"/>
