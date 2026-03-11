@@ -6,6 +6,12 @@ prism: true
 <article>
     <h1>{{title}}</h1>
     
+    {% if rss_only %}
+        <aside class="rss-club-notice">
+            <tt>🔒 This post is just for the RSS readers. Welcome to the RSS Club.</tt>
+        </aside>
+    {% endif %}
+    
     {% if description %}
         <p class="description">{{ description }}</p>
     {% endif %}
