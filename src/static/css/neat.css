@@ -32,7 +32,7 @@ input {
 }
 
 pre {
-    background-color: var(--lesslight);
+    background-color: transparent;
     margin: 0.5em 0 0.5em 0;
     padding: 0.5em;
     overflow: auto;
