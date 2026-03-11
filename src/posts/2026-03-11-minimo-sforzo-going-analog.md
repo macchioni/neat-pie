@@ -45,11 +45,9 @@ Questo saggio racconta quel metodo. Non è un manifesto contro la tecnologia —
 
 Perché dall'altra parte del percorso ci sei tu. E vale la pena ritrovarti.
 
----
-
-_Questa è una bozza per un'idea che ho da tempo: un saggio per raccontare i benefìci delle attività analogiche in un mondo digitale. Se vuoi commentare o contribuire, [scrivimi qui](https://letterbird.co/piero). // This is a draft for an idea I've had for a while: an essay on the benefits of analog activities in a digital world. If you'd like to comment or contribute, [write me](https://letterbird.co/piero)._
-
----
+<div class="alert-box">
+  Questa è una bozza per un'idea che ho da tempo: un saggio per raccontare i benefìci delle attività analogiche in un mondo digitale. Se vuoi commentare o contribuire, <a href="https://letterbird.co/piero">scrivimi qui</a>. // This is a draft for an idea I've had for a while: an essay on the benefits of analog activities in a digital world. If you'd like to comment or contribute, <a href="https://letterbird.co/piero">write me</a>.
+</div>
 
 <h1 id="less">Less</h1>
 

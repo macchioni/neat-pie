@@ -209,3 +209,10 @@ footer {
     margin-top: 2rem;
     padding-top: 1rem;
 }
+
+.alert-box {
+  border: 2px solid #F54069;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  color: #F54069;
+}
