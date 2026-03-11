@@ -178,9 +178,9 @@ nav {
 }
 
 .star-svg {
-  width: 56px;
-  height: 56px;
-  opacity: 0.45;
+  width: 60px;
+  height: 60px;
+  opacity: 0.35;
   animation: spin 24s linear infinite;
 }
 
