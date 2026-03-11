@@ -7,9 +7,12 @@ tags: ["posts", "analog", "algorithm"]
 layout: posts
 ---
 
+[→Jump to English version](#english-version)
+
+
 Qualcuno, da qualche parte, sta lavorando duramente perché tu non debba farlo.
 
-Sta studiando per quanto tempo tieni gli occhi fermi su uno schermo prima di scrollare. Sta testando quale colore di notifica ti fa aprire l'app più in fretta. Sta decidendo quale notizia ti fa più paura, quale storia ti commuove di più, quale pubblicità intercetta il pensiero che hai avuto ieri e che non hai detto a nessuno. Sa già cosa guarderai domani mattina, prima ancora che tu lo sappia.
+Sta studiando per quanto tempo tieni gli occhi fermi su uno schermo prima di scrollare. Sta testando quale colore di notifica ti fa aprire l'app più in fretta. Sta decidendo quale notizia ti fa più paura, quale storia ti commuove di più, quale pubblicità intercetta il pensiero che hai avuto ieri e che non hai detto a nessuno. Sa già che cosa guarderai domani mattina, prima ancora che tu lo sappia.
 
 Non è fantascienza. È il modello di business di quasi tutto quello che usi gratis ogni giorno.
 
@@ -19,15 +22,15 @@ Il problema non è che questo sistema funziona male. È che funziona benissimo.
 
 Così bene che smette di richiedere il tuo pensiero. Ti vuole presente ma non attivo, connesso ma non consapevole. Ti vuole nel loop.
 
-Questo saggio parte da una domanda: cosa fai, tu, quando nessun algoritmo ti sta guardando?
+Questo saggio parte da una domanda: che cosa fai, tu, quando nessun algoritmo ti sta guardando?
 
 Non è una domanda retorica. È una domanda pratica, e la risposta dice molto su chi sei diventato nell'ultimo decennio — e su chi potresti tornare a essere.
 
 Ho trovato una risposta parziale in un posto inaspettato: togliendo cose invece di aggiungerne. Dal lavoro, dalle abitudini, dagli strumenti. Ho scoperto che ogni volta che toglievo uno strato di comodità tecnologica, sotto c'era qualcosa di mio. Qualcosa che non richiedeva connessione per funzionare.
 
-Questo saggio racconta quel metodo. Non è un manifesto contro la tecnologia — sarebbe stupido e ipocrita scriverlo su un computer e venderlo su Amazon. È un argomento per la frizione. Per il momento lento. Per lo strumento che non ti incontra a metà strada ma ti chiede di fare tutto il percorso.
+Questo saggio racconta quel metodo. Non è un manifesto contro la tecnologia — sarebbe stupido e ipocrita scriverlo su un computer. È un argomento per la frizione. Per il momento lento. Per lo strumento che non ti incontra a metà strada ma ti chiede di fare tutto il percorso.
 
-Perché dall'altra parte del percorso ci sei tu. E vale la pena arrivarci.
+Perché dall'altra parte del percorso ci sei tu. E vale la pena ritrovarti.
 
 ---
 
