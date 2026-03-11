@@ -37,7 +37,7 @@ _Questa è una bozza per un'idea che ho da tempo: un saggio per raccontare i ben
 
 ---
 
-# Less
+<h1 id="less">Less</h1>
 
 Someone, somewhere, is working hard so you don't have to.
 
