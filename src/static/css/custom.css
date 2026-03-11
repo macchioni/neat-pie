@@ -203,3 +203,9 @@ nav {
 @media (prefers-reduced-motion: reduce) {
   .star-svg { animation: none; }
 }
+
+footer {
+    border-top: 1px solid #eee;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
