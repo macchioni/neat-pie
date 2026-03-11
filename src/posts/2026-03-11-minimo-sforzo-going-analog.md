@@ -7,8 +7,7 @@ tags: ["posts", "analog", "algorithm"]
 layout: posts
 ---
 
-[→Jump to English version](#english-version)
-
+[→ Jump to English version](#less)
 
 Qualcuno, da qualche parte, sta lavorando duramente perché tu non debba farlo.
 
@@ -37,8 +36,6 @@ Perché dall'altra parte del percorso ci sei tu. E vale la pena ritrovarti.
 _Questa è una bozza per un'idea che ho da tempo: un saggio per raccontare i benefìci delle attività analogiche in un mondo digitale. Se volete commentare o contribuire, [scrivetemi qui](https://letterbird.co/piero). // This is a draft for an idea I've had for a while: an essay on the benefits of analog activities in a digital world. If you'd like to comment or contribute, write to me here._
 
 ---
-
-### English version
 
 # Less
 
