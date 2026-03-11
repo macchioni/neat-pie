@@ -33,7 +33,7 @@ Perché dall'altra parte del percorso ci sei tu. E vale la pena ritrovarti.
 
 ---
 
-_Questa è una bozza per un'idea che ho da tempo: un saggio per raccontare i benefìci delle attività analogiche in un mondo digitale. Se volete commentare o contribuire, [scrivetemi qui](https://letterbird.co/piero). // This is a draft for an idea I've had for a while: an essay on the benefits of analog activities in a digital world. If you'd like to comment or contribute, write to me here._
+_Questa è una bozza per un'idea che ho da tempo: un saggio per raccontare i benefìci delle attività analogiche in un mondo digitale. Se vuoi commentare o contribuire, [scrivimi qui](https://letterbird.co/piero). // This is a draft for an idea I've had for a while: an essay on the benefits of analog activities in a digital world. If you'd like to comment or contribute, [write me](https://letterbird.co/piero)._
 
 ---
 
@@ -56,6 +56,6 @@ Not a rhetorical question. A practical one — and the answer says a lot about w
 
 I found a partial answer in an unexpected place: by removing things instead of adding them. From work, from habits, from tools. I discovered that every time I stripped away a layer of technological convenience, something of mine was underneath. Something that didn't need a connection to work.
 
-This essay describes that method. It's not a manifesto against technology — it would be stupid and hypocritical to write it on a computer and sell it on Amazon. It's an argument for friction. For the slow moment. For the tool that doesn't meet you halfway but asks you to walk the whole distance.
+This essay describes that method. It's not a manifesto against technology — it would be stupid and hypocritical to write it on a computer. It's an argument for friction. For the slow moment. For the tool that doesn't meet you halfway but asks you to walk the whole distance.
 
 Because on the other side of that distance, there's you. And it's worth getting there.
