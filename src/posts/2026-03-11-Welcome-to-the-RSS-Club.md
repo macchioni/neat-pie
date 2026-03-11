@@ -11,7 +11,7 @@ Se stai leggendo questo, sei nel posto giusto. Sei nell'RSS Club.
 
 L'idea è di [Dave Rupert](https://daverupert.com/), ma non so bene se mi è permesso parlarne. 
 
-In his own words
+In his own words:
 
 > It’s my pledge to use this secret communication channel to share a little more deeply. Maybe it’s something personal, maybe it’s something in progress, maybe it’s a soft launch. Monthly’ish Easter eggs for those of us who still use RSS readers. The goal of this feature, at least for me, is two-fold. Celebrate and incentivize RSS readership which I think is great as well as devalue social media channels as the primary content delivery network.
 
