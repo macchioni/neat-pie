@@ -31,8 +31,9 @@
     <outline text="Notes by JCProbably" title="Notes by JCProbably" type="rss" xmlUrl="https://notes.jeddacp.com/feed/" htmlUrl="https://notes.jeddacp.com/"/>
     <outline text="Om Malik" title="Om Malik" type="rss" xmlUrl="https://om.co/feed" htmlUrl="https://om.co/"/>
     <outline text="Pluralistic: Daily links from Cory Doctorow" title="Pluralistic: Daily links from Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net/"/>
-    <outline text="Posts on Carlos Alexandro Becker" title="Posts on Carlos Alexandro Becker" type="rss" xmlUrl="https://carlosbecker.com/posts/index.xml" htmlUrl="https://carlosbecker.com/posts/"/>
+    <outline text="Carlos Alexandro Becker" title="Posts on Carlos Alexandro Becker" type="rss" xmlUrl="https://carlosbecker.com/posts/index.xml" htmlUrl="https://carlosbecker.com/posts/"/>
     <outline text="Robert Birming" title="Robert Birming" type="rss" xmlUrl="https://birming.com/feed/" htmlUrl="https://birming.com/"/>
+    <outline text="Dave Rupert" title="Dave Rupert" type="rss" xmlUrl="https://daverupert.com/atom.xml" htmlUrl="https://daverupert.com/"/>
     <outline text="Scripting News" title="Scripting News" type="rss" xmlUrl="http://scripting.com/rss.xml" htmlUrl="http://scripting.com/"/>
     <outline text="shellsharks Scrolls" title="shellsharks Scrolls" type="rss" xmlUrl="https://shellsharks.com/feeds/scroll-feed.xml" htmlUrl="https://shellsharks.com/"/>
     <outline text="sylvia.bearblog.dev" title="sylvia.bearblog.dev" type="rss" xmlUrl="https://sylvia.bearblog.dev/feed/" htmlUrl="https://sylvia.bearblog.dev/"/>
