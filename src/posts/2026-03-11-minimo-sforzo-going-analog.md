@@ -9,6 +9,20 @@ layout: posts
 
 [→ Jump to English version](#less)
 
+```
+    o        o    o
+   /|\      /|\  /|
+   / \      / \  / \
+
+  o       o        o
+ /|\     /|\      /|\
+ / \     / \      / \
+
+     o        o
+    /|\      /|\
+    / \      / \
+```
+
 Qualcuno, da qualche parte, sta lavorando duramente perché tu non debba farlo.
 
 Sta studiando per quanto tempo tieni gli occhi fermi su uno schermo prima di scrollare. Sta testando quale colore di notifica ti fa aprire l'app più in fretta. Sta decidendo quale notizia ti fa più paura, quale storia ti commuove di più, quale pubblicità intercetta il pensiero che hai avuto ieri e che non hai detto a nessuno. Sa già che cosa guarderai domani mattina, prima ancora che tu lo sappia.
