@@ -43,9 +43,9 @@
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
   <meta property="og:title" content="{{ title or metadata.title }}">
   <meta property="og:description" content="{{ description or metadata.description }}">
-  <meta property="og:image" content="{{ metadata.url }}{{ image or metadata.image }}">
+  <meta property="og:image" content="{{ metadata.url }}{{ image if image else metadata.image }}">
   <meta property="og:locale" content="en_US">
-  
+
   <!-- X -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="{{ metadata.url }}{{ page.url }}">

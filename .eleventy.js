@@ -38,10 +38,13 @@ module.exports = function (eleventyConfig) {
   // XSL template format (for feed.xsl)
   eleventyConfig.addTemplateFormats("xsl");
 
-  // Strip leading whitespace from feed.xml
-  eleventyConfig.addTransform("stripXmlWhitespace", (content, outputPath) =>
-    outputPath?.endsWith("feed.xml") ? content.trimStart() : content
-  );
+  // Strip leading whitespace from feed.xml and feed.xsl
+  eleventyConfig.addTransform("stripXmlWhitespace", (content, outputPath) => {
+    if (outputPath?.endsWith("feed.xml") || outputPath?.endsWith("feed.xsl")) {
+      return content.trimStart();
+    }
+    return content;
+  });
 
   // Posts collection
   eleventyConfig.addCollection("posts", (collectionApi) =>
