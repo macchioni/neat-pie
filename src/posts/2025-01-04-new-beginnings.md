@@ -2,12 +2,12 @@
 title: "New Beginnings"
 description: "On bringing back the original spirit of blogging."
 date: 2025-01-04
-image: "static//images/vaulteyes-wide-open.png"
+image: "https://macchioni.cc/static/img/vault/eyes-wide-open.png"
 tags: ["posts", "enshittification", "blogging", "information"]
 layout: posts
 ---
 
-![Shepard Fairey](static/images/vault/eyes-wide-open.png)
+![Shepard Fairey](https://macchioni.cc/static/img/vault/eyes-wide-open.png)
 
 It's a matter of truth.
 It's a matter of freedom.
