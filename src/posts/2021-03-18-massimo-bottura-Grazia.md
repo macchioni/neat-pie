@@ -6,10 +6,14 @@ tags: ["posts", "restaurants", "food", "chefs"]
 layout: posts
 ---
 
-*Sul numero 15/2021 di Grazia abbiamo chiesto a 20 grandi nomi italiani internazionali di raccontare la loro ricetta per ricostruire il futuro dopo la pandemia. 
-Questo è quello che mi ha detto lo chef [Massimo Bottura](https://osteriafrancescana.it) dell'Osteria Francescana. Non troverete la parte più bella della nostra chiacchierata che ha a che fare con la nebbia del modenese, il comune di Castelnuovo Rangone e i tempi di cottura delle lingue di renna.*
+<div class="alert-box">Sul numero 15/2021 di Grazia abbiamo chiesto a 20 grandi nomi italiani internazionali di raccontare la loro ricetta per ricostruire il futuro dopo la pandemia. 
+Questo è quello che mi ha detto lo chef <a href="https://osteriafrancescana.it">Massimo Bottura</a> dell'Osteria Francescana. Non troverete la parte più bella della nostra chiacchierata che ha a che fare con la nebbia del modenese, il comune di Castelnuovo Rangone e i tempi di cottura delle lingue di renna.</div>
 
----
+<div class="breathe">
+</div>
+
+![Massimo Bottura](https://osteriafrancescana.it/wp-content/uploads/2023/07/Massimo-Bottura-credits-Marco-Poderi-1024x682.jpg)
+
 
 «Io vivo la vita come un sogno. Ho sempre creduto nelle mie idee e credere significa lottare per difenderle e realizzarle: per rendere visibile l’invisibile. Ma come? 
 

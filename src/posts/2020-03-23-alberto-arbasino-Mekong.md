@@ -10,9 +10,10 @@ layout: posts
 ![Alberto Arbasino](https://macchioni.cc/static/img/vault/arbasino.jpg)
 
 
-`E' morto nella notte lo scrittore e giornalista Alberto Arbasino. Tra i protagonisti del Gruppo '63, con una grande produzione che ha spaziato dai romanzi alla saggistica, Arbasino aveva 90 anni.` 
+<div class="alert-box">E' morto nella notte lo scrittore e giornalista Alberto Arbasino. Tra i protagonisti del Gruppo '63, con una grande produzione che ha spaziato dai romanzi alla saggistica, Arbasino aveva 90 anni.</div>
 
----
+<div class="breathe">
+</div>
 
 Detta in breve. Seconda liceo classico, Liceo Virgilio di Roma, maggio 1996. La professoressa d'italiano ci fa partecipare a un concorso legato al Premio Grinzane Cavour: bisogna recensire ognuno un libro. A me capita _Mekong_ (Adelphi) di Alberto Arbasino. Con indolenza adolescenziale, rintronato dall'inizio torrentizio e cultural-citazionarolo del libro, scrivo una recensione stroncatura, dandomi apertamente del deficiente. In effetti non sapevo bene neanche chi fosse, questo Arbasino. 
 
