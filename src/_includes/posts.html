@@ -27,4 +27,19 @@ prism: true
     <a class="u-url" href="{{ page.url }}"></a>
     <a class="p-author h-card" href="https://macchioni.cc">Piero Macchioni</a>
   </div>
+
+  <div class="webmentions">
+  <span class="wm-count" id="wm-likes">♡ –</span>
+  <span class="wm-count" id="wm-reposts">↺ –</span>
+</div>
+
+<script>
+  fetch(`https://webmention.io/api/count.json?target={{ metadata.url }}{{ page.url }}`)
+    .then(r => r.json())
+    .then(data => {
+      document.getElementById('wm-likes').textContent = '♡ ' + (data.type?.like || 0);
+      document.getElementById('wm-reposts').textContent = '↺ ' + (data.type?.repost || 0);
+    });
+</script>
+
 </article>
