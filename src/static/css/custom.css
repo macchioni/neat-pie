@@ -238,3 +238,13 @@ footer {
 .wm-count {
   margin-right: 1rem;
 }
+
+/* ==========================================================================
+   CODEBLOCK MIGLIORATO
+   ========================================================================== */
+
+pre, code {
+  background-color: var(--light);
+  border: 1px solid var(--lesslight);
+  border-radius: 4px;
+}
