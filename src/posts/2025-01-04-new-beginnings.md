@@ -2,12 +2,12 @@
 title: "New Beginnings"
 description: "On bringing back the original spirit of blogging."
 date: 2025-01-04
-image: "https://doagahehoc242.cloudfront.net/uploads/artists/1/d0b2d433_6-eyes-wide-open-canvas-500.webp"
+image: "static//images/vaulteyes-wide-open.png"
 tags: ["posts", "enshittification", "blogging", "information"]
 layout: posts
 ---
 
-![Shepard Fairey](https://doagahehoc242.cloudfront.net/uploads/artists/1/d0b2d433_6-eyes-wide-open-canvas-500.webp)
+![Shepard Fairey](static/images/vault/eyes-wide-open.png)
 
 It's a matter of truth.
 It's a matter of freedom.
