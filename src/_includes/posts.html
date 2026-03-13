@@ -3,24 +3,28 @@ layout: default
 prism: true
 ---
 
-<article>
-    <h1>{{title}}</h1>
-    
-    {% if rss_only %}
-        <aside class="rss-club-notice">
-            <tt>🔒 This post is just for the RSS readers. Welcome to the RSS Club.</tt>
-        </aside>
-    {% endif %}
-    
-    {% if description %}
-        <p class="description">{{ description }}</p>
-    {% endif %}
-    
-    <div class="breathe">
-        {{ content | safe }}
-    </div>
-    
-    <div class="post-footer">
-        <small>{{ date | readableDate }}</small>
-    </div>
+<article class="h-entry">
+  <h1 class="p-name">{{title}}</h1>
+
+  {% if rss_only %}
+    <aside class="rss-club-notice">
+      <tt>🔒 This post is just for the RSS readers. Welcome to the RSS Club.</tt>
+    </aside>
+  {% endif %}
+
+  {% if description %}
+    <p class="description p-summary">{{ description }}</p>
+  {% endif %}
+
+  <div class="breathe e-content">
+    {{ content | safe }}
+  </div>
+
+  <div class="post-footer">
+    <small>
+      <time class="dt-published" datetime="{{ date | rssDate }}">{{ date | readableDate }}</time>
+    </small>
+    <a class="u-url" href="{{ page.url }}"></a>
+    <a class="p-author h-card" href="https://macchioni.cc">Piero Macchioni</a>
+  </div>
 </article>

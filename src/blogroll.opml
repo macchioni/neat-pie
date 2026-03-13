@@ -6,10 +6,8 @@
   </head>
   <body>
     <outline text="Annie" title="Annie" type="rss" xmlUrl="https://anniemueller.com/posts_feed" htmlUrl="https://anniemueller.com/"/>
-    <outline text="Annie Mueller" title="Annie Mueller" type="rss" xmlUrl="https://annie.micro.blog/feed.xml" htmlUrl="https://annie.micro.blog/"/>
     <outline text="Bacardi55's cave" title="Bacardi55's cave" type="rss" xmlUrl="https://bacardi55.io/index.xml" htmlUrl="https://bacardi55.io/"/>
     <outline text="Ben Daubney" title="Ben Daubney" type="rss" xmlUrl="https://www.bendaubney.com/feed/" htmlUrl="https://bendaubney.com/"/>
-    <outline text="Brandon's Journal" title="Brandon's Journal" type="rss" xmlUrl="https://brandons-journal.com/feed/" htmlUrl="https://brandons-journal.com/"/>
     <outline text="BuzzMachine" title="BuzzMachine" type="rss" xmlUrl="https://buzzmachine.com/feed/" htmlUrl="https://buzzmachine.com/"/>
     <outline text="Canned Dragons" title="Canned Dragons" type="rss" xmlUrl="https://canneddragons.net/blog/rss/" htmlUrl="https://canneddragons.net/"/>
     <outline text="Citation Needed" title="Citation Needed" type="rss" xmlUrl="https://www.citationneeded.news/rss/" htmlUrl="https://www.citationneeded.news/"/>
@@ -23,7 +21,6 @@
     <outline text="Julia Evans" title="Julia Evans" type="rss" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="https://jvns.ca/"/>
     <outline text="Kenobit" title="Kenobit" type="rss" xmlUrl="https://log.livellosegreto.it/kenobit/feed/" htmlUrl="https://log.livellosegreto.it/kenobit/"/>
     <outline text="kottke.org" title="kottke.org" type="rss" xmlUrl="https://feeds.kottke.org/main" htmlUrl="https://kottke.org/"/>
-    <outline text="Lou Plummer" title="Lou Plummer" type="rss" xmlUrl="https://amerpie.lol/feed.xml" htmlUrl="https://amerpie.lol/"/>
     <outline text="Luke Mitchell | Bookmarks" title="Luke Mitchell | Bookmarks" type="rss" xmlUrl="https://www.interroban.gg/feeds/bookmarks.xml" htmlUrl="https://www.interroban.gg/bookmarks/2021"/>
     <outline text="Manu's Feed" title="Manu's Feed" type="rss" xmlUrl="https://manuelmoreale.com/feed" htmlUrl="https://manuelmoreale.com/"/>
     <outline text="Mitchell Hashimoto" title="Mitchell Hashimoto" type="rss" xmlUrl="https://mitchellh.com/feed.xml" htmlUrl="https://mitchellh.com/writing"/>
@@ -31,7 +28,6 @@
     <outline text="Notes by JCProbably" title="Notes by JCProbably" type="rss" xmlUrl="https://notes.jeddacp.com/feed/" htmlUrl="https://notes.jeddacp.com/"/>
     <outline text="Om Malik" title="Om Malik" type="rss" xmlUrl="https://om.co/feed" htmlUrl="https://om.co/"/>
     <outline text="Pluralistic: Daily links from Cory Doctorow" title="Pluralistic: Daily links from Cory Doctorow" type="rss" xmlUrl="https://pluralistic.net/feed/" htmlUrl="https://pluralistic.net/"/>
-    <outline text="Carlos Alexandro Becker" title="Posts on Carlos Alexandro Becker" type="rss" xmlUrl="https://carlosbecker.com/posts/index.xml" htmlUrl="https://carlosbecker.com/posts/"/>
     <outline text="Robert Birming" title="Robert Birming" type="rss" xmlUrl="https://birming.com/feed/" htmlUrl="https://birming.com/"/>
     <outline text="Dave Rupert" title="Dave Rupert" type="rss" xmlUrl="https://daverupert.com/atom.xml" htmlUrl="https://daverupert.com/"/>
     <outline text="Scripting News" title="Scripting News" type="rss" xmlUrl="http://scripting.com/rss.xml" htmlUrl="http://scripting.com/"/>
