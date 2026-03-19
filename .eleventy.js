@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/static");
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/blogroll.opml");
+  eleventyConfig.addPassthroughCopy("src/_redirects");
 
   // XSL template format (for feed.xsl)
   eleventyConfig.addTemplateFormats("xsl");
